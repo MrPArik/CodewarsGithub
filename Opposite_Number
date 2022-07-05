@@ -1,0 +1,25 @@
+//Very simple, given an integer or a floating-point number, find its opposite.
+
+//Examples:
+
+//1: -1
+//14: -14
+//-34: 34
+
+
+int opposite(int number) 
+{
+int solution;
+  if(number>0){
+    solution=0-number;
+    return solution;
+  }
+  else if(number==0){
+    return 0;
+  }
+  else{
+    solution=number-(2*number);
+    return solution;
+  }
+    
+}
