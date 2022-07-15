@@ -11,7 +11,7 @@ long pillars(int num_of_pillars, int distance, int width) {
   int solution=0;
   if(num_of_pillars<2){
     return 0;
-  }
+  } 
   else if(num_of_pillars==2){
     solution=distance*100;
     return solution;
