@@ -10,7 +10,7 @@
 
 #include <vector>
 #include <cstdint>
-#include <math.h>
+#include <math.h> 
 
 std::vector<uint64_t> powers_of_two(int n) {
   if(n>1){
