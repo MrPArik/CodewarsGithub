@@ -14,5 +14,5 @@ bool set_alarm(const bool& employed,const bool& vacation){
   }
   else{
     return 0;
-  }
+  } 
 }
