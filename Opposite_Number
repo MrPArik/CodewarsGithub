@@ -15,7 +15,7 @@ int solution;
     return solution;
   }
   else if(number==0){
-    return 0;
+    return 0; 
   }
   else{
     solution=number-(2*number);
